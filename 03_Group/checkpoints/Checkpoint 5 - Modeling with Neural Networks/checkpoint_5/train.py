@@ -19,7 +19,7 @@ from loss import MultipleChoiceLossCompute, ClassificationLossCompute
 
 '''
 to run:
-    python train.py --dataset checkpoint5 --desc checkpoint5 --submit 
+    python train.py --dataset checkpoint5 --desc checkpoint5 --submit --analysis
 '''
 
 def transform_checkpoint5(statements):
@@ -192,7 +192,7 @@ if __name__ == '__main__':
     parser.add_argument('--b1', type=float, default=0.9)
     parser.add_argument('--b2', type=float, default=0.999)
     parser.add_argument('--e', type=float, default=1e-8)
-    parser.add_argument('--n_valid', type=int, default=50)
+    parser.add_argument('--n_valid', type=int, default=199)
 
     args = parser.parse_args()
     print(args)

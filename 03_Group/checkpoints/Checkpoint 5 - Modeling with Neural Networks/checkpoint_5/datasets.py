@@ -19,7 +19,7 @@ def _checkpoint5(path):
             results.append(int(line[2]))
         return statements, results
     
-def checkpoint5(data_dir, n_train=450, n_valid=50):
+def checkpoint5(data_dir, n_train=800, n_valid=199):
     statements, results = _checkpoint5(os.path.join(data_dir, 'training.csv'))
     test_statements, _ = _checkpoint5(os.path.join(data_dir, 'testing.csv'))
     tr_statements, va_statements, tr_results, va_results = train_test_split(statements, results, test_size=n_valid, random_state=seed)
