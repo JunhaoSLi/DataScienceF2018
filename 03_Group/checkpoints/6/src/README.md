@@ -3,7 +3,7 @@
 Custom SQL Query to convert Point object to latitude and longitude
 
 ```sql
-SELECT id, ST_X(Point), ST_Y(Point) FROM data_allegation
+SELECT id, ST_X(Point), ST_Y(Point) FROM data_allegation;
 ```
 
 Tables used: 
