@@ -16,6 +16,8 @@ When all of our previous maps were compared to the average median income of the 
 
 ## 2. Relationship between the race of the complainant and the nature of the complaint. 
 
+![alt text]()
+
 #### Conclusions: 
 We found that for the most part, for each complaint category, approximately half of the complaints were against white officers and about 25% against black and hispanic officers. However, there were a few complaint categories where the ratio of complaints against black officers was almost as much as the ratio of complaints against white officers. For instance, in complaints categorized as Domestic, approximately 43% of the complaints were against white officers and approximately 36% of the complaints were against black officiers. A similar case exists in the category of Conduct Unbecoming (Off-Duty). 
 
